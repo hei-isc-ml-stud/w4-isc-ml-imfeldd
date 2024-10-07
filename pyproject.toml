@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "301-explainable-ml"
+version = "0.1.0"
+description = "Project on explainable ML for 301 module"
+authors = ["Gregory Mermoud"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.12"
+numpy = "<2.0"
+ipykernel = "^6.29.5"
+pandas = "^2.0.3"
+plotly = "^5.24.0"
+nbformat = "^5.10.4"
+scikit-learn = "^1.5.2"
+polars = "^1.7.0"
+ucimlrepo = "^0.0.7"
+pyarrow = "^17.0.0"
+altair = {extras = ["polars"], version = "^5.4.1"}
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+jupyter-black = "^0.4.0"
+shap = "^0.46.0"
+xgboost = "^2.1.1"
+interpret = "^0.6.3"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
